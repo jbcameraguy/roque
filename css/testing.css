@@ -1,0 +1,17 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.specials,
+.reviews,
+.address {
+    float: left;
+    width: 300px;
+    padding: 10px;
+    height: 300px;
+}
+.bottom:after {
+    content: "";
+    display: table;
+    clear: both;
+}
